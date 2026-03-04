@@ -23,7 +23,7 @@ console.log(hasilMutlak);
 let nama = "Alice";
 console.log(nama);
 console.log("Nama saya adalah " + nama);
-console.log(Nama saya adalah ${nama});
+console.log(`Nama saya adalah ${nama}`  );
 
 const user = {
     name: "John Doe",
