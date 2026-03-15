@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+
+}
+
+p > span {
+    color: coral; 
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none; /* menghilangkan pinggiran tombol */
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #2e3443;
+    color: white;
+}
+
+.dark-mode textarea {
+    background-color: #2e3443;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #29ddcc;
+}
