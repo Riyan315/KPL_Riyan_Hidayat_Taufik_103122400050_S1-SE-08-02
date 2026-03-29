@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+     transition: all 0.3s ease;
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+
+}
+
+p > span {
+    color: coral; 
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none; 
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #2e3443;
+    color: white;
+}
+
+.dark-mode textarea {
+    background-color: #2e3443;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #29ddcc;
+}
+
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+
+.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.sepia-mode textarea {
+    background-color: white;
+    color: black;
+}
+
+.sepia-mode button {
+    background-color: #d6c3a3;
+    color: #5B4636;
+}
+
+.mode-div {
+    margin-top: 10px;
+}
